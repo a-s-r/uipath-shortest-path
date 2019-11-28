@@ -1,0 +1,37 @@
+{
+  "name": "ShortestPath",
+  "description": "The goal of this challenge is to create an attended robot that works in tandem with the user.\r\n\r\nThe user needs to match one Demand (marked as a RED point) to the closest Supply (marked as a GREEN point) which will populate two tables with data.\r\n\r\nThe robot needs to fill the required data inside the form using the data in the tables generated at step 2. The form will return a contract value that needs to be inserted back in the 'Contract' text box.\r\n\r\nRepeat until there are no more RED points.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.ComputerVision.Activities": "[2.0.1]",
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.PDF.Activities": "[2.1.0]",
+    "UiPath.System.Activities": "[19.7.0]",
+    "UiPath.UIAutomation.Activities": "[19.7.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
